@@ -13,6 +13,7 @@
 		21F154422469F1310040DF74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F154402469F1310040DF74 /* Main.storyboard */; };
 		21F154442469F1320040DF74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F154432469F1320040DF74 /* Assets.xcassets */; };
 		21F154472469F1320040DF74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F154452469F1320040DF74 /* LaunchScreen.storyboard */; };
+		21F1544F2469F83B0040DF74 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F1544E2469F83B0040DF74 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		21F154432469F1320040DF74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21F154462469F1320040DF74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21F154482469F1320040DF74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F1544E2469F83B0040DF74 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				21F154432469F1320040DF74 /* Assets.xcassets */,
 				21F154452469F1320040DF74 /* LaunchScreen.storyboard */,
 				21F154482469F1320040DF74 /* Info.plist */,
+				21F1544E2469F83B0040DF74 /* TableViewCell.swift */,
 			);
 			path = teste;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21F1543F2469F1310040DF74 /* ViewController.swift in Sources */,
+				21F1544F2469F83B0040DF74 /* TableViewCell.swift in Sources */,
 				21F1543B2469F1310040DF74 /* AppDelegate.swift in Sources */,
 				21F1543D2469F1310040DF74 /* SceneDelegate.swift in Sources */,
 			);
